@@ -1,6 +1,8 @@
 ## Move Pokémon with the Select Button
 
-Adds the ability to move Pokémon in the party menu with the Select button, instead of needing to choose the `SWITCH` option.
+Adds the ability to move Pokémon in the party menu with the Select button, instead of needing to choose the `SWITCH` option. To clarify, this is not the "automatically move to first slot" that was introduced in SV.
+
+![](bpre-switch-pokemon-button.gif)
 
 ### Build Instructions
 
@@ -11,8 +13,8 @@ See [here](https://gist.github.com/Zeturic/db1611cc7b17c3140f9b9af32e1b596b) for
 Open your terminal to whatever folder you want to download this repo into. Then, do the following to download the repo and build the included tools:
 
 ```shell
-$ git clone https://github.com/Zeturic/bpre-pokemon-switch-button.git
-$ cd bpre-pokemon-switch-button
+$ git clone https://github.com/Zeturic/bpre-switch-pokemon-button.git
+$ cd bpre-switch-pokemon-button
 ```
 
 #### Adding your ROM
