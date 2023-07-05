@@ -26,7 +26,18 @@ struct PartyMenu
     u8 action;
     u16 bagItem;
     s16 data[2];
+    u16 padding;
 };
+
+_Static_assert(sizeof(struct PartyMenu) == 0x14, "");
+_Static_assert(offsetof(struct PartyMenu, exitCallback) == 0x0, "");
+_Static_assert(offsetof(struct PartyMenu, task) == 0x4, "");
+_Static_assert(offsetof(struct PartyMenu, slotId) == 0x9, "");
+_Static_assert(offsetof(struct PartyMenu, slotId2) == 0xA, "");
+_Static_assert(offsetof(struct PartyMenu, action) == 0xB, "");
+_Static_assert(offsetof(struct PartyMenu, bagItem) == 0xC, "");
+_Static_assert(offsetof(struct PartyMenu, data) == 0xE, "");
+_Static_assert(offsetof(struct PartyMenu, padding) == 0x12, "");
 
 struct PartyMenuInternal
 {
